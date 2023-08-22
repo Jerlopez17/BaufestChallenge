@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="EjecutarNuevaSolicitud(failed)" parallel="none">
+    <classes>
+      <class name="modulo2.NuevaSolicitud">
+        <methods>
+          <include name="afterClass"/>
+          <include name="EjecutarNuevaSolicitud" invocation-numbers="0 1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- modulo2.NuevaSolicitud -->
+    </classes>
+  </test> <!-- EjecutarNuevaSolicitud(failed) -->
+</suite> <!-- Failed suite [Suite] -->
