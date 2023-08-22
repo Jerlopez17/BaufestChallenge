@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60502" started-at="2023-08-22T05:29:39Z" finished-at="2023-08-22T05:30:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60502" started-at="2023-08-22T05:29:39Z" finished-at="2023-08-22T05:30:39Z">
+      <class name="modulo1.altaUsuario">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:modulo1.altaUsuario@20ce78ec]" name="beforeClass" is-config="true" duration-ms="1775" started-at="2023-08-22T00:29:39Z" finished-at="2023-08-22T00:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="EjecutarAprobarSolicitud(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:modulo1.altaUsuario@20ce78ec]" name="EjecutarAprobarSolicitud" duration-ms="29374" started-at="2023-08-22T00:29:41Z" data-provider="DataCasosPrueba" finished-at="2023-08-22T00:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jerson1726]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AltaUsuario1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EjecutarAprobarSolicitud -->
+        <test-method status="PASS" signature="EjecutarAprobarSolicitud(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:modulo1.altaUsuario@20ce78ec]" name="EjecutarAprobarSolicitud" duration-ms="28594" started-at="2023-08-22T00:30:11Z" data-provider="DataCasosPrueba" finished-at="2023-08-22T00:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jerson1822]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AltaUsuario2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EjecutarAprobarSolicitud -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:modulo1.altaUsuario@20ce78ec]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-22T00:30:39Z" finished-at="2023-08-22T00:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- modulo1.altaUsuario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
